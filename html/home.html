@@ -3,29 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/mack.css">
+    <link rel="stylesheet" href="../js/nav.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="">
     <title>Mack! Home</title>
 </head>
 <body>
-    <header>
-        <ul>
-            <li>work</li>
-            <li>play</li>
-            <li>resume</li>
-            <li>about</li>
-        </ul>
+    <header class="topnav">
+        <nav id="navlinks">
+            <a href="work.html">work</a>
+            <a href="play.html">play</a>
+            <a href="resume.html">resume</a>
+            <a href="about.html">about</a>
+        </nav>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </header>
 
     <main>
         <h2> Hi! I'm Mack! Hi, I’m Mack! A second-year User Experience & Interaction Design major @ Drexel University, interested in interactive storytelling. </h2>
-
-        <a href="freelibrary.html">Free Library of Philadelphia Redesign</a>
-        <br>
-        <a href="everyapp.html">Every(): A Habit Tracker App</a>
-        <br>
-        <a href="cab.html">Campus Activities Board</a>
-
     </main>
+    
+    <section class="featured">
+        <h3>Featured</h3>
+        <hr>
+        <img src="https://placehold.co/320x200/000000/FFFFFF.png" alt="" srcset="">
+        <a href="freelibrary.html" class="homelink">Free Library of Philadelphia Redesign</a>
+        <hr>
+        <br>
+        <img src="https://placehold.co/320x200/000000/FFFFFF.png" alt="" srcset="">
+        <a href="everyapp.html" class="homelink">Every(): A Habit Tracker App</a>
+        <hr>
+        <br>
+        <img src="https://placehold.co/320x200/000000/FFFFFF.png" alt="" srcset="">
+        <a href="cab.html" class="homelink">Campus Activities Board</a>
+        <hr>
+    </section>
+
+
 
     <footer>
 

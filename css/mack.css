@@ -1,211 +1,20 @@
-@font-face {
-    font-family: 'Moderat';
-    src: url('../fonts/Moderat-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('../fonts/Moderat-Black-Italic.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('../fonts/Moderat-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('../fonts/Moderat-Bold-Italic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('../fonts/Moderat-Extended-Black-Italic.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('../fonts/Moderat-Extended-Regular.ttf') format('truetype');
+h2 {
+    font-family: Jogan Mono, sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('../fonts/Moderat-Extended-Thin-Italic.ttf') format('truetype');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('../fonts/Moderat-Extended-Regular-Italic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('../fonts/Moderat-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('../fonts/Moderat-Regular-Italic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('../fonts/Moderat-Extended-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('../fonts/Moderat-Thin-Italic.ttf') format('truetype');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('../fonts/Moderat-Extended-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('../fonts/Moderat-Extended-Light-Italic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('../fonts/Moderat-Extended-Medium-Italic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('../fonts/Moderat-Extended-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('../fonts/Moderat-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('../fonts/Moderat-Medium-Italic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('../fonts/Moderat-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('../fonts/Moderat-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('../fonts/Moderat-Extended-Bold-Italic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('../fonts/Moderat-Extended-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat Extended';
-    src: url('../fonts/Moderat-Extended-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Moderat';
-    src: url('../fonts/Moderat-Light-Italic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
+    font-size: 35px;
 }
 
 h1 {
-    font-family: Moderat, sans-serif;
-    font-weight: 900;
-    font-style: normal;
-}
-
-h2 {
     font-family: Moderat, sans-serif;
     font-weight: bold;
     font-style: normal;
 }
 
 h3 {
-    font-family: Moderat, sans-serif;
-    font-weight: 500;
-    font-style: italic;
+    font-family: 'Jogan Round', sans-serif;
+    font-weight: normal;
+    font-style: normal;
 }
 
 h4 {
@@ -214,13 +23,85 @@ h4 {
 }
 
 p {
-    font-family: Moderat, sans-serif;
-    font-weight: 500;
+    font-family: Pulp Display, sans-serif;
+    font-weight: normal;
     font-style: normal;
 }
 
 
 body {
     background-color: #121212;
+    color: white;
+    margin: 0; /* Remove default body margin */
+}
+
+main {
+    padding: 20px;
+}
+
+
+.featured {
+    background-color: white;
+    color: #121212;
+    width: 100%; /* Set width to 100% to fill the entire width of the viewport */
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Include padding in the total width/height */
+}
+
+.homelink {
+    font-family: 'Jogan Round', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 165%;
+    color: black;
+}
+
+.casestudyheader {
+    background-color: black;
+    color: white;
+    width: 100%; /* Set width to 100% to fill the entire width of the viewport */ 
+    height: 600px;
+    box-sizing: border-box; /* Include padding in the total width/height */
+}
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #navlinks {
+    display: none;
+}
+  
+  /* Style navigation menu links */
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+  /* Style the hamburger menu */
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+  /* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+  /* Style the active link (or home/logo) */
+.active {
+    background-color: #04AA6D;
     color: white;
 }
