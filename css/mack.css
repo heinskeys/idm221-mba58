@@ -1,14 +1,14 @@
+h1 {
+    font-family: 'Jogan ROund', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
 h2 {
-    font-family: Jogan Mono, sans-serif;
+    font-family: Jogan Soft, sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 35px;
-}
-
-h1 {
-    font-family: Moderat, sans-serif;
-    font-weight: bold;
-    font-style: normal;
 }
 
 h3 {
@@ -39,6 +39,13 @@ main {
     padding: 20px;
 }
 
+.article {
+    background-color: white;
+    color: #121212;
+    width: 100%; /* Set width to 100% to fill the entire width of the viewport */
+    box-sizing: border-box; /* Include padding in the total width/height */
+    margin: 0;
+}
 
 .featured {
     background-color: white;
@@ -54,6 +61,13 @@ main {
     font-style: normal;
     font-size: 165%;
     color: black;
+}
+
+.home-header {
+    font-family: Jogan Mono, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;
 }
 
 .casestudyheader {
