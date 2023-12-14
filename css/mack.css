@@ -50,6 +50,8 @@ main {
     padding: 20px;
 }
 
+
+
 .article {
     background-color: white;
     color: #121212;
@@ -99,6 +101,10 @@ main {
     font-style: normal;
     font-display: swap;
     font-size: 18px;
+}
+
+.cshformat hr {
+    box-sizing: border-box;
 }
 
 
