@@ -128,7 +128,7 @@
 
 @font-face {
     font-family: 'Jogan Soft';
-    src: url('../JoganSoft.ttf') format('truetype');
+    src: url('../fonts/JoganSoft.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -136,7 +136,7 @@
 
 @font-face {
     font-family: 'Jogan';
-    src: url('../Jogan-Bold.ttf') format('truetype');
+    src: url('../fonts/Jogan-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
