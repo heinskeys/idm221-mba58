@@ -1,7 +1,8 @@
 h1 {
-    font-family: 'Jogan ROund', sans-serif;
+    font-family: 'Jogan Round', sans-serif;
     font-weight: normal;
     font-style: normal;
+    font-size: 45px;
 }
 
 h2 {
@@ -15,10 +16,11 @@ h3 {
     font-family: 'Jogan Round', sans-serif;
     font-weight: normal;
     font-style: normal;
+    font-size: 20px;
 }
 
 h4 {
-    font-family: Moderat, sans-serif;
+    font-family: Pulp Display, sans-serif;
     font-weight: normal;
 }
 
@@ -26,6 +28,14 @@ p {
     font-family: Pulp Display, sans-serif;
     font-weight: normal;
     font-style: normal;
+    font-size: 18px;
+}
+
+.plist {
+    font-family: Pulp Display, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 18px;
 }
 
 
@@ -74,48 +84,29 @@ main {
     background-color: black;
     color: white;
     width: 100%; /* Set width to 100% to fill the entire width of the viewport */ 
-    height: 600px;
+    height: auto;
     box-sizing: border-box; /* Include padding in the total width/height */
 }
 
-/* Style the navigation menu */
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
+.cshformat {
+    padding-left: 5%;
 }
 
-  /* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #navlinks {
-    display: none;
+.cshformat h4 {
+    font-family: 'Jogan Soft', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+    font-size: 18px;
 }
-  
-  /* Style navigation menu links */
-.topnav a {
+
+
+
+.linkheader {
+    background-color: black;
     color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
+    width: 100%; /* Set width to 100% to fill the entire width of the viewport */ 
+    height: 150px;
+    box-sizing: border-box; /* Include padding in the total width/height */
 }
-  
-  /* Style the hamburger menu */
-.topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-  
-  /* Add a grey background color on mouse-over */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-  
-  /* Style the active link (or home/logo) */
-.active {
-    background-color: #04AA6D;
-    color: white;
-}
+
