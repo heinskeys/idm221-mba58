@@ -68,6 +68,28 @@ main {
     box-sizing: border-box; /* Include padding in the total width/height */
 }
 
+.featured h3 {
+    font-family: 'Jogan Round', sans-serif;
+    font-weight: normal;
+    font-style: bold;
+    font-size: 40px;
+    margin: 0;
+}
+
+.featured p {
+    font-family: 'Pulp Display', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.featured img {
+    width: auto;
+    height: 200px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
 .homelink {
     font-family: 'Jogan Round', sans-serif;
     font-weight: normal;
@@ -86,13 +108,21 @@ main {
 .casestudyheader {
     background-color: black;
     color: white;
-    width: 100%; /* Set width to 100% to fill the entire width of the viewport */ 
-    height: auto;
+    width: 100%;
     box-sizing: border-box; /* Include padding in the total width/height */
 }
 
+.casestudyheader img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+
 .cshformat {
     padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
 }
 
 .cshformat h4 {
@@ -104,16 +134,52 @@ main {
 }
 
 .cshformat hr {
-    box-sizing: border-box;
+    width: 100%; /* Adjust the width of the hr as needed */
+    margin: 0 auto; /* Center the hr horizontally */
+    border-color: white; /* Set the border color to match the text color */
 }
-
-
 
 .linkheader {
     background-color: black;
     color: white;
     width: 100%; /* Set width to 100% to fill the entire width of the viewport */ 
-    height: 150px;
+    height: auto;
     box-sizing: border-box; /* Include padding in the total width/height */
+    font-size: 40px;
 }
 
+.imgformat {
+    max-width: 100%;
+    max-height: 100vh; /* Ensure the image doesn't exceed the viewport height */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.posterformat {
+    max-width: 90vw; /* Adjust the percentage as needed */
+    max-height: 90vh; /* Adjust the percentage as needed */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.posterformat img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+.footer {
+    background-color: black;
+    color: white;
+    width: 100%; /* Set width to 100% to fill the entire width of the viewport */ 
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
