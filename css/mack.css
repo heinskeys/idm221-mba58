@@ -9,7 +9,6 @@ h2 {
     font-family: 'Jogan Soft', sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
     font-size: 35px;
 }
 
@@ -82,7 +81,7 @@ main {
 .featured h3 {
     font-family: 'Jogan Round', sans-serif;
     font-weight: normal;
-    font-style: bold;
+    font-style: normal;
     font-size: 40px;
     margin: 0;
     text-decoration: none;
@@ -146,7 +145,6 @@ main {
     font-family: 'Jogan Soft', sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
     font-size: 18px;
 }
 
@@ -254,7 +252,6 @@ header {
     font-family: 'Jogan Soft Mono', sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
     font-size: 1.2rem;
 }
 
@@ -263,7 +260,6 @@ header {
     text-decoration: none;
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
     font-size: 1.8rem;
 }
 
