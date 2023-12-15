@@ -219,10 +219,16 @@ header {
 
 .navbar .menu-items {
     display: flex;
-}
+} 
 
 .navbar .nav-container li {
     align-items: center;
+    list-style: none;
+}
+
+.navbar .nav-container ul {
+    align-items: center;
+    padding-inline-start: 0%;
     list-style: none;
 }
 
